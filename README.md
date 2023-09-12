@@ -1,10 +1,8 @@
-This repository contains code for a regression project. The project aims to predict the sale prices of houses based on various features. Below, you will find an overview of the code and its functionality.
-
-### Code Overview
+# Code Overview
 
 The code is written in Python and utilizes popular data science libraries such as Pandas, Matplotlib, Seaborn, NumPy, and Scipy. It also includes machine learning models from scikit-learn and XGBoost for regression tasks.
 
-#### Data Loading
+## Data Loading
 
 The project starts by loading the training and testing datasets from the following URLs:
 
@@ -13,7 +11,7 @@ The project starts by loading the training and testing datasets from the followi
 
 The training dataset is loaded into `df_train`, and the testing dataset is loaded into `df_test`.
 
-#### Data Exploration and Preprocessing
+## Data Exploration and Preprocessing
 
 The code performs the following data exploration and preprocessing steps:
 
@@ -23,14 +21,14 @@ The code performs the following data exploration and preprocessing steps:
 4. Visualize the distribution of 'SalePrice' using a histogram and calculate skewness and kurtosis.
 5. Create scatterplots and boxplots to explore relationships between features and the target variable.
 
-#### Data Transformation
+## Data Transformation
 
 The code performs data transformation to improve the distribution of the target variable 'SalePrice':
 
 1. Apply a logarithmic transformation to 'SalePrice' and visualize the transformed distribution.
 2. Use a QQ-plot to check the normality of 'SalePrice' after transformation.
 
-#### Feature Engineering
+## Feature Engineering
 
 Feature engineering steps include:
 
@@ -41,7 +39,7 @@ Feature engineering steps include:
 5. One-hot encoding categorical variables.
 6. Scaling the features using RobustScaler.
 
-#### Model Building and Evaluation
+## Model Building and Evaluation
 
 The code evaluates the performance of several regression models using K-Fold cross-validation:
 
